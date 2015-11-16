@@ -1,0 +1,3 @@
+- term: This is an example term
+  slug: example-term
+  definition: To add glossary terms, edit the glossary.yaml file in the _data folder. Terms need a term, slug, and definition attribute.

@@ -1,0 +1,25 @@
+<script src="{{ site.baseurl }}/assets/js/ui.js"></script>
+<script>
+  var glossary_data = {{ site.data.glossary | jsonify }}
+</script>
+
+<div id="glossary">
+  <a href="#" class="glossary-toggle">Close</a>
+  <h3>Glossary of Terms</h3>
+  <input type="search" id="glossary-search" placeholder="search here">
+  <div id="glossary-terms">
+    <ul>
+      {% assign sorted_glossary = site.data.glossary | sort: "term" %}
+      {% for item in sorted_glossary %}
+        <li class="glossary-term" hidden-term="false" id="{{ item.slug }}">
+          <div class="glossary-term-name">
+            {{ item.term }}
+          </div>
+          <div class="glossary-term-definition">
+            {{ item.definition | markdownify }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
