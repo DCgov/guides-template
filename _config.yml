@@ -35,7 +35,10 @@ navigation:
   url: ./
   internal: true
 - text: Add a new page
-  url: example_page
+  url: add-a-new-page
+  internal: true
+- text: Update the config file
+  url: update-the-config-file
   internal: true
 - text: Create a glossary
   bookmark: true

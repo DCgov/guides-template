@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Example Page"
+title:  "Add a new page"
 ---
 
 Hey! This is an example page. I have lots of cool content. Yay.
