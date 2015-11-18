@@ -1,9 +1,9 @@
   function searchGlossary (search, by) {
     $(glossary_data).each(function(index, value) {
       if (value[by].toLowerCase().indexOf(search) < 0) {
-        $("#" + value.slug).attr("hidden-term", "true");
+        $(".glossary-term#" + value.slug).attr("hidden-term", "true");
       } else {
-        $("#" + value.slug).attr("hidden-term", "false");       
+        $(".glossary-term#" + value.slug).attr("hidden-term", "false");       
       }
     });
   }
@@ -22,7 +22,10 @@
     var search_object = findFirst($(glossary_data), "slug", slug)
     var search_string = search_object.term.toLowerCase();
 
-    searchGlossary(slug, "slug");
+    $(".glossary-term").attr("hidden-term", "true");
+    $(".glossary-term#" + slug).attr("hidden-term", "false");       
+
+    // searchGlossary(slug, "slug");
 
     $("#glossary-search").val(search_string);
     $("#glossary").toggle(display = true);
