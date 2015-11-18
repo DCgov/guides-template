@@ -6,12 +6,12 @@
       {% for link in site.navigation %}
         {% if link.bookmark == true %}
             <li class="{{ link.bookmark_class }}">
-              <a href="#">{{ link.text }}</a>
+              <a href="#{{ link.bookmark_anchor }}">{{ link.text }}</a>
             </li>
         {% elsif link.internal == true %}
             <li>
               <a href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a>
-            </li>   
+            </li>
         {% else %}
             <li>
               <a href="{{ link.url }}">{{ link.text }}</a>

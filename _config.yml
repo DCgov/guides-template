@@ -1,5 +1,5 @@
 # Base configuration
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Gemfile", "Gemfile.lock", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md"]
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
@@ -31,17 +31,18 @@ logoalt: The D.C. flag
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Home
+- text: Introduction
   url: ./
   internal: true
-- text: Example Page
+- text: Add a new page
   url: example_page
   internal: true
-- text: Glossary of Terms
+- text: Create a glossary
   bookmark: true
   bookmark_class: glossary-toggle
+  bookmark_anchor: glossary
 - text: Edit this Repo
-  url: https://github.com/cfpb/DOCter
+  url: https://github.com/DCgov/guides-template
   internal: false
 
 # Repo list

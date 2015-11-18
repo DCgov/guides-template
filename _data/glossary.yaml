@@ -1,3 +1,19 @@
-- term: This is an example term
-  slug: example-term
-  definition: To add glossary terms, edit the glossary.yaml file in the _data folder. Terms need a term, slug, and definition attribute.
+- term: A glossary term
+  slug: a-glossary-term
+  definition: To add glossary terms, edit the glossary.yaml file in the _data folder.
+- term: Another term
+  slug: another-glossary-term
+  definition: >
+    Glossary terms need a term, slug, and definition attribute. 
+    The term attribute will appear above the definition.
+    The slug is a unique identifier for the term.
+    It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.
+- term: Yet another term
+  slug: yet-another-term
+  definition: >
+    Want to link to a specific glossary term in your text, like to [this one here](#glossary){:.term #yet-another-term}?
+    You will need to edit your markdown like so: 
+
+        [this one here](#glossary){:.term #yet-another-term}
+
+    Just swap in the right slug after the # sign.

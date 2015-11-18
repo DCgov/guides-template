@@ -1,10 +1,5 @@
-<script src="{{ site.baseurl }}/assets/js/ui.js"></script>
-<script>
-  var glossary_data = {{ site.data.glossary | jsonify }}
-</script>
-
 <div id="glossary">
-  <a href="#" class="glossary-toggle">Close</a>
+  <a href="#glossary" class="glossary-toggle">Close</a>
   <h3>Glossary of Terms</h3>
   <input type="search" id="glossary-search" placeholder="search here">
   <div id="glossary-terms">
@@ -23,3 +18,8 @@
     </ul>
   </div>
 </div>
+
+<script>
+  var glossary_data = {{ site.data.glossary | jsonify }}
+</script>
+<script src="{{ site.baseurl }}/assets/js/ui.js"></script>
