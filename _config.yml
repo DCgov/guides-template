@@ -11,18 +11,17 @@ collections:
 
 # Title
 name: DCgov Guides Template
-subtitle: A Jekyll template for DC Government project documentation
-
-# When using this template with a project page set the baseurl to '/project-name'
-# For user/organization pages set this to an empty string
-# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
-# See http://jekyllrb.com/docs/github-pages/ for more info
-baseurl: '/guides-template'
 
 # Author/Organization info to be displayed in the templates
 author:
   name: The Office of Technology Innovation
   url: http://octo.dc.gov
+
+# When using this template with a project (repository) page set the baseurl to '/project-name'
+# For user/organization pages set this to an empty string
+# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
+# See http://jekyllrb.com/docs/github-pages/ for more info
+baseurl: '/guides-template'
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /assets/img/dc_logo.png
@@ -32,21 +31,19 @@ logoalt: The D.C. flag
 # List links that should appear in the site sidebar here
 navigation:
 - text: Introduction
+  internal: true
   url: ./
-  internal: true
 - text: Add a new page
+  internal: true
   url: add-a-new-page
+- text: Configure the guide
   internal: true
-- text: Update the config file
-  url: update-the-config-file
-  internal: true
+  url: configure-the-guide
 - text: Create a glossary
-  bookmark: true
-  bookmark_class: glossary-toggle
-  bookmark_anchor: glossary
+  glossary: true
 - text: Edit this Repo
-  url: https://github.com/DCgov/guides-template
   internal: false
+  url: https://github.com/DCgov/guides-template
 
 # Repo list
 # List repos that you would like to appear on the homepage here

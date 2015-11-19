@@ -4,9 +4,9 @@
   <nav class="sidebar-nav" role="navigation">
     <ul>
       {% for link in site.navigation %}
-        {% if link.bookmark == true %}
-            <li class="{{ link.bookmark_class }}">
-              <a href="#{{ link.bookmark_anchor }}">{{ link.text }}</a>
+        {% if link.glossary == true %}
+            <li class="glossary-toggle">
+              <a href="#glossary">{{ link.text }}</a>
             </li>
         {% elsif link.internal == true %}
             <li>

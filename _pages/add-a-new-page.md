@@ -1,8 +1,36 @@
 ---
 layout: page
-title:  "Add a new page"
+title: Add a new page
 ---
+To add new pages, create a 
+[Markdown](http://daringfireball.net/projects/markdown/syntax) file in the
+`_pages/` directory of the repository. For example, the Markdown text for
+this page is
+[`_pages/add-a-new-page.md`](https://github.com/DCgov/guides-template/blob/gh-pages/_pages/add-a-new-page.md).
 
-Hey! This is an example page. I have lots of cool content. Yay.
+The Markdown document begins with this [YAML front
+matter](http://jekyllrb.com/docs/frontmatter/):
 
-One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops
+~~~
+layout: page
+title: {{ page.title }}
+~~~
+{: .language-yaml}
+
+The page will be accessible at `{{ page.path }}`.
+
+## Link to other pages within the guide
+
+Every link to another page _must_ be prefixed with
+`{% raw %}{{ site.baseurl }}{% endraw %}`. For example,
+this link to [Update the config file]({{ site.baseurl }}/update-the-config-file/)
+appears in the Markdown source as:
+
+~~~
+{% raw %}[Update the config file]({{ site.baseurl }}/update-the-config-file/){% endraw %}
+~~~
+
+## Next steps
+
+Click the _Update the config file_ entry in the table of contents to learn how
+to configure your guide.
