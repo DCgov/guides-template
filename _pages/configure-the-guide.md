@@ -62,7 +62,7 @@ The `url:` should be `https://github.com/DCgov/MY-NEW-GUIDE`, where
 repository. For the `description:` property, it's OK to enter something
 generic like "main repository." However, if you aren't certain about either
 value, it's also OK to enter placeholder text for these properties and change
-them later, ideally before posting to the 18F Pages server. 
+them later.
 
 The `repos:` entry of this template contains:
 
