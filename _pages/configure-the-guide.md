@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Configure the guide"
+title:  "Configure the Guide"
 ---
 
 Work your way through these steps to update 

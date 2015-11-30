@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Add a new page
+title: Add a New Page
 ---
 To add new pages, create a 
 [Markdown](http://daringfireball.net/projects/markdown/syntax) file in the

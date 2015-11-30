@@ -36,10 +36,13 @@ navigation:
 - text: Add a new page
   internal: true
   url: add-a-new-page
-- text: Configure the guide
+- text: Configure the Guide
   internal: true
   url: configure-the-guide
-- text: Create a glossary
+- text: GitHub Setup
+  internal: true
+  url: github
+- text: Create a Glossary
   glossary: true
 - text: Edit this Repo
   internal: false
