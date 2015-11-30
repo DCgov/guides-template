@@ -16,19 +16,21 @@
     return null;
   }    
 
-  $(".term").click(function() {
-    var slug = $(this).attr("id");
+  $('a[define]').click(function() {
+    var slug = $(this).attr("define");
 
-    var search_object = findFirst($(glossary_data), "slug", slug)
-    var search_string = search_object.term.toLowerCase();
+    if (slug) {
+      var search_object = findFirst($(glossary_data), "slug", slug)
+      var search_string = search_object.term.toLowerCase();
 
-    $(".glossary-term").attr("hidden-term", "true");
-    $(".glossary-term#" + slug).attr("hidden-term", "false");       
+      $(".glossary-term").attr("hidden-term", "true");
+      $(".glossary-term#" + slug).attr("hidden-term", "false");       
 
-    // searchGlossary(slug, "slug");
+      // searchGlossary(slug, "slug");
 
-    $("#glossary-search").val(search_string);
-    $("#glossary").toggle(display = true);
+      $("#glossary-search").val(search_string);
+      $("#glossary").toggle(display = true);      
+    }
   });
 
   $(".glossary-toggle").click(function() {

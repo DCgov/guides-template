@@ -11,9 +11,9 @@
 - term: Yet another term
   slug: yet-another-term
   definition: >
-    Want to link to a specific glossary term in your text, like [this one here](#glossary){:.term #yet-another-term}?
+    Want to link to a specific glossary term in your text, like [this one here](#glossary){:define="yet-another-term"}?
     You will need to edit your markdown like so: 
 
-        [this one here](#glossary){:.term #yet-another-term}
+        [this one here](#glossary){:define="yet-another-term"}
 
-    Just swap in the right slug after the # sign.
+    Just place the text you want linked in the brackets and the correct slug within the quotes.
