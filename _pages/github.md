@@ -20,22 +20,22 @@ template and will become the starting point for your new GitHub repository.
 When you are ready, execute the following commands to create your new guide:
 
 ~~~
-git add .
-git commit -m 'Initial commit'
+$ git add .
+$ git commit -m 'Initial commit'
 ~~~
 {: .language-shell}
 
 You can also do all of the above in one step by running the following command from the top-level directory of your repository:
 
 ~~~
-./go create_guide
+$ ./go create_guide
 ~~~
 {: .language-shell}
 
 To preview your guide locally before making any commits, run the following from the same directory and point your web browser to [http://localhost:4000/](http://localhost:4000/):
 
 ~~~
-./go serve
+$ ./go serve
 ~~~
 {: .language-shell}
 
