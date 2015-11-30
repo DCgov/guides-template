@@ -65,7 +65,7 @@ To create a new guide and serve it locally, where `MY-NEW-GUIDE` is the name
 of your new repository:
 
 ```shell
-$ git clone https://github.com/18F/guides-template.git MY-NEW-GUIDE
+$ git clone https://github.com/DCgov/guides-template.git MY-NEW-GUIDE
 $ cd MY-NEW-GUIDE
 $ ./go serve
 ```
