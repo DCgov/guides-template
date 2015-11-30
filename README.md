@@ -55,8 +55,8 @@ all your [gems](https://rubygems.org/) will need to be rebuilt.
 To install all of the site's dependencies, run the following commands:
 
 ```shell
-gem install bundler
-bundle install
+$ gem install bundler
+$ bundle install
 ```
 
 #### Cloning and serving the Guides Template locally
