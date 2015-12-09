@@ -1,4 +1,4 @@
-## 18F Guides Template
+## DCgov Guides Template
 
 This repository is at once a skeleton template for DCgov Guides sites and a set of instructions for setting up your own DCgov Guide. 
 
