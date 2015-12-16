@@ -2,6 +2,8 @@
 
 This repository is at once a skeleton template for DCgov Guides sites and a set of instructions for setting up your own DCgov Guide. 
 
+DCgov guides sites are intended for documenting **best practice standards** (e.g. design, accessibility, analytics, licensing). They may also be used to provide **background information** on project repositories, but you really should try to do so in your repository's README file. [18F's open source style guide](https://pages.18f.gov/open-source-guide/) provides excellent advice for making your projects easy to use and understand!
+
 The template is based on [CFPB/DOCter](https://github.com/CFPB/DOCter)-based, using [Jekyll](http://jekyllrb.com/) as the rendering engine. The guide's text is based on the [18F/guides-template](https://github.com/18F/guides-template).
 
 
