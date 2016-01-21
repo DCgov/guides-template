@@ -1,0 +1,21 @@
+{
+  "name": "guides-template",
+  "status": "Production",
+  "contact": {
+    "name": "Emanuel Feld",
+    "email": "opensource@dc.gov"
+  },
+  "description": "A template and set of instructions for setting up DCgov guide sites.",
+  "type": "web app",
+  "license": "https://raw.githubusercontent.com/DCgov/guides-template/gh-pages/LICENSE.md",
+  "homepage": "http://open.dc.gov/guides-template/",
+  "repository": "https://github.com/DCgov/guides-template",
+  "geography": [],
+  "data": [],
+  "keywords": [
+    "guide",
+    "instructions"
+  ],
+  "links": [],
+  "id": "https://raw.githubusercontent.com/DCgov/civic.json/master/schema.json"
+}
