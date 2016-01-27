@@ -3,13 +3,19 @@
   "status": "Production",
   "contact": {
     "name": "Emanuel Feld",
-    "email": "opensource@dc.gov"
+    "email": "open@dc.gov"
   },
   "description": "A template and set of instructions for setting up DCgov guide sites.",
   "type": "web app",
   "license": "https://raw.githubusercontent.com/DCgov/guides-template/gh-pages/LICENSE.md",
   "homepage": "http://open.dc.gov/guides-template/",
   "repository": "https://github.com/DCgov/guides-template",
+  "partners": [
+    {
+      "name": "OCTO Innovation Program",
+      "email": "open@dc.gov"
+    }
+  ],
   "geography": [],
   "data": [],
   "keywords": [
