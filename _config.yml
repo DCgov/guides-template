@@ -14,7 +14,7 @@ name: DCgov Guides Template
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: OCTO Innovation Program
+  name: Office of the Chief Technology Officer
   url: http://octo.dc.gov
 
 # When using this template with a project (repository) page set the baseurl to '/project-name'
